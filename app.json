@@ -21,7 +21,10 @@
          "OWNER_ID": {
             "description": "𝙾𝚠𝚗𝚎𝚛 𝚒𝚍",
             "required": true
-        }
+        },
+        "CHANNEL_ID": {
+           "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
+           "required": true
     },
     "buildpacks": [
     {
