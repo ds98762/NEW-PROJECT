@@ -191,7 +191,7 @@ async def setg_discription(_, message):
 @Yumikoo.on_message(filters.command("leavegroup", COMMAND_HANDLER)& filters.user(OWNER_ID))
 async def bot_leave(_, message):
     chat_id = message.chat.id
-    text = "**sᴜᴄᴄᴇssғᴜʟʟʏ ʜɪʀᴏᴋᴏ ʀᴏʙᴏᴛ ʟᴇғᴛ ᴛʜᴇ ɢʀᴏᴜᴘ !!.**"
+    text = "**sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴀsʜᴍɪᴋᴀ ʀᴏʙᴏᴛ ʟᴇғᴛ ᴛʜᴇ ɢʀᴏᴜᴘ !!.**"
     await message.reply_text(text)
     await Yumikoo.leave_chat(chat_id=chat_id, delete=True)
 
