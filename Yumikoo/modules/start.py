@@ -123,8 +123,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
             [
-                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/"),
-                InlineKeyboardButton("ʙᴏᴛ ᴍᴀᴋᴇʀ", url="https::/t.me/"),
+                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/abt_mei"),
+                InlineKeyboardButton("ʙᴏᴛ ᴍᴀᴋᴇʀ", url="https::/t.me/i_dxlvir"),
             ],
             [
                 InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_")
