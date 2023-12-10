@@ -31,7 +31,7 @@ START_IMG = (
 START_TEXT = """
 **ʜᴇʏ ᴛʜᴇʀᴇ [{}](tg://user?id={}) ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ !**
 ━━━━━━━━━━━━━━━━━━━━━━
-**`๏ ɪ ᴀᴍ ˹ ꝛᴏʙᴏᴛ˼ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs
+**`๏ ɪ ᴀᴍ ˹𝗥ᴀsʜᴍɪᴋᴀ 𝗥ᴏʙᴏᴛ˼ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs
 ๏ ɪ ᴀᴍ ᴅɪғғᴇʀᴇɴᴛ ғʀᴏᴍ ᴀɴᴏᴛʜᴇʀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛs
 `**
 """
@@ -124,7 +124,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/"),
-                InlineKeyboardButton("ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https::/t.me/"),
+                InlineKeyboardButton("ʙᴏᴛ ᴍᴀᴋᴇʀ", url="https::/t.me/"),
             ],
             [
                 InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_")
